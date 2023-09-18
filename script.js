@@ -20,6 +20,7 @@ let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for(let i =0; i < array2.length; i+=1){
     if(array2[i] == 5){
         document.write(array2[i] + " არის" + "<br>");
+        break;
     }
 }
 
