@@ -27,22 +27,19 @@ for(let i =0; i < array2.length; i+=1){
 document.write("დავალება #4 -'console' -ში" + "<br>")
 
 let users = [
-    {username1: 'Giorgi', status: false},
-    {username2: 'Levani', status: false},
-    {username3: 'Anna', status: true}
+    {username: 'Giorgi', status: false},
+    {username: 'Levani', status: false},
+    {username: 'Anna', status: true}
 ]
-let user1 = users[0]
-let user2 = users[1]
-let user3 = users[2]
-if(user1.status == true){
-    console.log(user1)
+
+if(users[0].status == true){
+    console.log(users[0])
 }
-if(user2.status ==true){
-    console.log(user2)
+if(users[1].status ==true){
+    console.log(users[1])
 
 }
-if(user3.status ==true){
-    console.log(user3)
-
+if(users[2].status ==true){
+    console.log(users[2])
 }
 
